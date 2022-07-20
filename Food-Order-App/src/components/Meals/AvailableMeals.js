@@ -18,13 +18,13 @@ const DUMMY_MEALS = [
 	{
 		id: 'm3',
 		name: 'Barbecue Burger',
-		description: 'American, raw, meaty',
+		description: 'American, raw, meaty.',
 		price: 12.99,
 	},
 	{
 		id: 'm4',
 		name: 'Green Bowl',
-		description: 'Healthy...and green...',
+		description: 'Healthy... And green...',
 		price: 18.99,
 	},
 ];
@@ -32,6 +32,7 @@ const DUMMY_MEALS = [
 const AvailableMeals = () => {
 	const mealsList = DUMMY_MEALS.map((meal) => (
 		<MealItem
+			id={meal.id}
 			key={meal.id}
 			name={meal.name}
 			description={meal.description}
@@ -40,11 +41,11 @@ const AvailableMeals = () => {
 	));
 
 	return (
-		<Card>
-			<section className={classes.meals}>
+		<section className={classes.meals}>
+			<Card>
 				<ul>{mealsList}</ul>
-			</section>
-		</Card>
+			</Card>
+		</section>
 	);
 };
 
