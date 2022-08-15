@@ -1,12 +1,12 @@
 import classes from './TodoItem.module.css';
 
-type todoItemProps = {
+type TodoItemProps = {
 	key: number;
 	text: string;
 	onRemoveTodo: () => void;
 };
 
-const TodoItem = (props: todoItemProps) => {
+const TodoItem = (props: TodoItemProps) => {
 	return (
 		<li className={classes.item} onClick={props.onRemoveTodo}>
 			{props.text}

@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 import Todo from '../models/todo';
 
-type todosContextObj = {
+type TodosContextObj = {
 	items: Todo[];
 	addTodo: (text: string) => void;
 	removeTodo: (id: number) => void;
 };
 
-type contextProviderProps = {
+type ContextProviderProps = {
 	children?: React.ReactNode;
 };
 
-export const TodosContext = React.createContext<todosContextObj>({
+export const TodosContext = React.createContext<TodosContextObj>({
 	items: [],
 	addTodo: () => {},
 	removeTodo: (id) => {},
 });
 
-export const TodosContextProvider = (props: contextProviderProps) => {
+export const TodosContextProvider = (props: ContextProviderProps) => {
 	const [todos, setTodos] = useState<Todo[]>([]);
 
 	const addTodoHandler = (text: string) => {
@@ -29,7 +29,7 @@ export const TodosContextProvider = (props: contextProviderProps) => {
 		setTodos((prevState) => prevState.filter((todo) => todo.id !== id));
 	};
 
-	const contextValue: todosContextObj = {
+	const contextValue: TodosContextObj = {
 		items: todos,
 		addTodo: addTodoHandler,
 		removeTodo: removeTodoHandler,
