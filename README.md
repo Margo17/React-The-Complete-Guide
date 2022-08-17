@@ -1,6 +1,6 @@
 # React-The-Complete-Guide
 
-Here included are all the programs written during the [React The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) course.
+Here included are all the programs written during the [React The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) Udemy course.
 
 > To run applications: Clone repository or download the files, then run `npm install` and `npm start`, with NEXTJS apps use `npm run dev`.
 
@@ -22,7 +22,7 @@ React The Complete Guide (highest rated React curiculum on Udemy, length: about 
 
 6. [Great Quotes](Great-Quotes)
 
-> Hosted at: https://react-http-a07f2.web.app/quotes
+  > Hosted at: https://react-http-a07f2.web.app/quotes
 
 7. [Movie Renderer](Movie-Renderer)
 
