@@ -22,7 +22,7 @@ React The Complete Guide (highest rated React curiculum on Udemy, length: about 
 
 6. [Great Quotes](Great-Quotes)
 
-  > Hosted at: https://react-http-a07f2.web.app/quotes
+> Hosted at: https://react-http-a07f2.web.app/quotes
 
 7. [Movie Renderer](Movie-Renderer)
 
