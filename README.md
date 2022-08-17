@@ -1,6 +1,6 @@
 # React-The-Complete-Guide
 
-Here included are all the programs written during the [React The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) course.
+Here included are all of the programs written during the [React The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) Udemy course.
 
 > To run applications: Clone repository or download the files, then run `npm install` and `npm start`, with NEXTJS apps use `npm run dev`.
 
