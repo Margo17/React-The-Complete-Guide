@@ -48,7 +48,7 @@ React The Complete Guide (highest rated React curiculum on Udemy, length: about 
 
 ## Additional assignments
 
-In addition to projects there were quizes and exercizes in each module which had to be passed for 100% completion.
+In addition to projects there were quizes, code reviews, exercises and retrospective in each module which had to be passed for 100% completion.
 
 ## What I've learned
 
